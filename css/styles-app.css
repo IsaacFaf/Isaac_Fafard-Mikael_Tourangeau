@@ -1,17 +1,7 @@
 .navbar{
-    background-color:grey;
-    
-  }
+  background-color:var(--charcoal);
 
-  #menu-toggle {
-    display: none;
-  }
-
-  @media (max-width: 768px) {
-    #menu-toggle:checked + #menu {
-      display: block;
-    }
-  }
+ }
   :root {
     --pink: #fac9b8;
     --brown: #e5d4c0;
@@ -19,6 +9,23 @@
     --mint: #a1e8cc;
     --charcoal: #495159;
   }
-  .dropdown-menu{
-    background-color: var(--charcoal);
+  p{
+    font-family:Patrick;
+  }
+  a{
+    color: var(--brown);
+    text-decoration: none;
+    font-family: var(--main);
+  }
+  .logo{
+    width: 50px;
+    
+  }
+  .texte{margin-top: 2vh;
+    margin-right: 60vh;
+    width: 100%;
+    transform: translateX(-10vh);
+  }
+  .bi.bi-file-person{
+    width: 150px;
   }
