@@ -13,9 +13,12 @@
     }
   }
   :root {
-    --pink: fac9b8;
-    --brown: e5d4c0;
-    --opal: c5decd;
-    --mint: a1e8cc;
-    --charcoal: 495159;
+    --pink: #fac9b8;
+    --brown: #e5d4c0;
+    --opal: #c5decd;
+    --mint: #a1e8cc;
+    --charcoal: #495159;
+  }
+  .dropdown-menu{
+    background-color: var(--charcoal);
   }
