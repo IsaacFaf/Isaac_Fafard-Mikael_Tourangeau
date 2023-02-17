@@ -1,11 +1,31 @@
-.navbar{
-    background-color:grey;
-    color: black;
-  }
+
+  /*-- style generaux --*/
   :root {
     --pink: fac9b8;
     --brown: e5d4c0;
     --opal: c5decd;
     --mint: a1e8cc;
     --charcoal: 495159;
+    --main: outfit;
+    --sub: fira sans;
+    --oeuvre: patrick;
+
+  }
+  h1{
+    font-family: var(--main);
+  }
+  h2{
+    font-family: var(--main);
+  }
+  h3{
+    font-family: var(--main);
+  }
+  h4{
+    font-family: var(--main);
+  }
+  h5{
+    font-family: var(--main);
+  }
+  h6{
+    font-family: var(--main);
   }
