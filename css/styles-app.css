@@ -2,6 +2,16 @@
     background-color:grey;
     
   }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #menu-toggle:checked + #menu {
+      display: block;
+    }
+  }
   :root {
     --pink: fac9b8;
     --brown: e5d4c0;
