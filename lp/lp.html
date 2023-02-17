@@ -19,25 +19,26 @@
       </header>    
       <main>
         
-        <nav class="navbar navbar-light navbar-expand-lg">
+        <nav id="navbar-example2" class="navbar navbar-light navbar-expand">
             <div class="container">
           
               <a class="navbar-brand" href="lp.html"><img class="logo"src="../assets/artworks/LogoPngbon.png" alt=""></a>
               <div id="mainNav" class="collapse navbar-collapse">
+                
                 <ul class="navbar-nav">
                   <li class="nav-item dropdown ">
                     <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown">Ancre</a>
-          
+                    
                     <ul class="dropdown-menu">
                       
                       <li>
-                        <a href="#hero" class="dropdown-item">titre 1</a>
+                        <a href="#scrollspyHero"  class="dropdown-item">L'appli</a>
                       </li>
                       <li>
-                        <a href="#fonctionnalites" class="dropdown-item">titre 2</a>
+                        <a href="#scrollspyFonctionnalites" class="dropdown-item">Fonctionnalités</a>
                       </li>
                       <li>
-                        <a href="#" class="dropdown-item">titre 3</a>
+                        <a href="#scrollspyVoir plus" class="dropdown-item">Voir plus</a>
                       </li>
                     
                     </ul>
@@ -46,15 +47,42 @@
               </li>
               </ul>
             </div>
-        
-  </main>  
-  
 
+            </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+            <h4 id="scrollspyHero"></h4>
+            <h4 id="scrollspyFonctionnalites"></h4>
+            <h4 id="scrollspyVoir plus"></h4>
+        </div>
+  </main>  
+  <div id="margin"class="row justify-content-center"><div id="flex"class="col-11  col-lg-5"><div class="heroText"><h1>Découvrez Medjap</h1><h2>Avec cette aplication, vous pourrez découvrir une tonne de media japonais et enrichir votre connaissance!</h2><div class="buttonaction">installer</div></div></div>
+  <div class="col-11  col-lg-5"><div class="heroPhone"><iframe class="iframe"src="../app/app.html" title="app"></iframe></div></div> </div> </div>
 
 
     </main>
     <footer>
+        <nav id="footer" class="navbar navbar-light navbar-expand">
+            <div id="footerCon"class="container">
+          
+             
+              <div id="mainNav" class="collapse navbar-collapse">
+                
+                
+                   
+          
+                    <div class="row">
+                        <div id="footerword"class="col-6">Mikael Tourangeau et Isaac Fafard</div>
+                        <div  class="col-6"><a id="a_sans_class"href="https://github.com/IsaacFaf/Isaac_Fafard-Mikael_Tourangeau">https://github.com/IsaacFaf/Isaac_Fafard-Mikael_Tourangeau</a></div>
+                        <div id="footerword"class="col-6">@2023</div>
+                       
+                      </div>
+                    
+              </div>
+              </li>
+              </ul>
+            </div>
 
+            </nav>
     </footer>
 
 </body>
