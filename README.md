@@ -1,4 +1,4 @@
-# Ceci est notre site reggroupant des arts multimédia japonais
+# Ceci est notre site reggggggggroupant des arts multimédia japonais
 
 Nom de notre festival: Japan Media Arts Festival
 Ce projet est effectué dans le cadre du cours de : Optimisation Web - Air Flight
