@@ -12,7 +12,7 @@
 
   }
   .submit{
-    background-color: red;
+    background-color: var(--pink);
   }
  .btn{
   background-color: var(--pink);
