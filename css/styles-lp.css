@@ -11,12 +11,51 @@
     --oeuvre: patrick;
 
   }
+  .submit{
+    background-color: red;
+  }
+ .btn{
+  background-color: var(--pink);
+  border: none;
+ }
+.infolettre{
+  background-image: url("../assets/artworks/background.jpg");
+  background-size: 100vw;
+  margin-top: 200px;
 
+}
+  .accordion-button{
+    font-size: 30px;
+  }
+  .accordion-body{
+    font-size: 20px;
+  }
+  .faq{
+    margin-top: 300px;
+  
+  }
+.section-testimonials{
+  margin-top: 500px;
 
+ 
+}
+.avis{
+  width: 20vh;
+ 
+}
+
+h3{
+  color: var(--pink);
+}
   
 p{
-  font-family:Patrick;
-}
+  font-family: var(--sub);
+  color: var(--charcoal );
+  font-size: 20px;
+} 
+.infoTexte{
+    color: var(--pink);
+  }
 a{
   color: var(--brown);
   text-decoration: none;
@@ -34,6 +73,7 @@ a{
   background-color:var(--charcoal);
   position:fixed;
   width: 100%;
+  z-index: 1;
  }
 
 .logo{
@@ -59,9 +99,7 @@ a{
 width: 100%;
 }
 
-.row{
-  width: 100%;
-}
+
 #footerword{
   color: var(--brown);
 }
@@ -121,3 +159,11 @@ width: 100%;
 }
 
 
+.card{
+  z-index: 0;
+}
+
+h2{
+  color: var(--pink);
+  margin-top: 50px;
+}
