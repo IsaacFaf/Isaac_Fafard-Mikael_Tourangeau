@@ -41,8 +41,8 @@
   
   .svg{
     width: 350px;
-    margin-top: 10px;
-    transform: translateX(-90px);
+    
+    transform: translate(150px, -32px);
   }
   footer {
     width: 100%;

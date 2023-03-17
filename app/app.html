@@ -46,7 +46,7 @@
                       <a href="app.html" class="nav-link">Accueil</a>
                   </li>
                   <li class="nav-item">
-                      <a href="fonctionnalitees-app.html" class="nav-link">Fonctionnalitées</a>
+                      <a href="fonctionnalitees-app.html" class="nav-link">Oeuvres à l'affiche</a>
                   </li>
                   <li class="nav-item">
                     <a href="page-3.html" class="nav-link">Oeuvres</a>
@@ -68,20 +68,18 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-QFyo7JcrzNwwAAZohr5OW5dTO0/2uQiz8y7cqPzvJpWe7Vxlmxkt1Z5VJr5uxMuE" crossorigin="anonymous">
 <!--Formulaire des placeholders / barre recherche-->
 <form class="d-flex">
-  <input class="form-control me-2" type="search" placeholder="Rechercher une oeuvre" aria-label="Rechercher une oeuvre " >
-  <svg class="svg"  width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-  </svg>
-  <!-- Changement de ligne-->
-  <br><br>
+  
   <!--Overflow [Non fonctionnel malheureusement :(]-->
-  <div class="overflow"></div>
-  <input class="form-control me-2" type="search" placeholder="Rechercher un artiste" aria-label="Rechercher un artiste">
-  <svg class="svg"  width="16" height="16" class="bi bi-search" viewBox="0 0 16 16">
+  <div class="overflow">
+    </div>
+    <div class="patate">
+  <input class="form-control" type="search" placeholder="Rechercher un artiste ou une oeuvre" aria-label="Rechercher une oeuvre ou un artiste">
+  <svg class="svg"  width="16" height="16" class="bi bi-search" viewBox="0 0 1 16">
     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
   </svg>
-  <br></br>
-  <button class="btn btn-outline-success" type="submit">Rechercher</button>
+</div>
+  
+  <button class="btn btn-success" type="submit" style="height: 50%; display: flex; justify-content: center; align-items: center;">Rechercher</button>
   
 </form>
    

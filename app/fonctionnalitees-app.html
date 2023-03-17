@@ -23,6 +23,7 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
   </style>
+  
 </head>
 <body>
   <header>
@@ -46,7 +47,7 @@
                       <a href="app.html" class="nav-link">Accueil</a>
                   </li>
                   <li class="nav-item">
-                      <a href="fonctionnalitees-app.html" class="nav-link">Fonctionnalitées</a>
+                      <a href="fonctionnalitees-app.html" class="nav-link">Oeuvres à l'affiche</a>
                   </li>
                   <li class="nav-item">
                     <a href="page-3.html" class="nav-link">Oeuvres</a>
@@ -59,9 +60,21 @@
       </div>
       <!--Arrenger menu-->
   </nav>
+
+
+  
   </header>
 
-<main>
+<main style="background-color: rgba(211, 211, 211, 0.5);">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+ 
+
+
+
+
+
+
+
   <!--lien des icones-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-c8W7S9btpCpPiLyg1eJw8wIYS1fTcTgr3zA3oHgdWkX9Yngs1gAsRczFhJ8kvz+v" crossorigin="anonymous">
 
@@ -70,79 +83,109 @@
 
 
 
+<swiper-container class="mySwiper swiper-filters" pagination="false" pagination-clickable="true" slides-per-view="auto" centered-slides="false" space-between="45" style="background-color: rgba(211, 211, 211, 0.5);">
+  <div class="swiper-slide" style="text-align: center; font-size: 18px; background: rgba(211, 211, 211, 0.5); display: flex; justify-content: center; align-items: center; width: 15%;">
+    <p class="btn btn-primary">Toutes</p>
+  </div>
+  <div class="swiper-slide" style="text-align: center; font-size: 18px; background: rgba(211, 211, 211, 0.5); display: flex; justify-content: center; align-items: center; width: 25%;">
+    <p class="btn btn-primary">Installations interactive</p>
+  </div>
+  <div class="swiper-slide" style="text-align: center; font-size: 18px; background: rgba(211, 211, 211, 0.5); display: flex; justify-content: center; align-items: center; width: 25%;">
+    <p class="btn btn-primary">Concert</p>
+  </div>
+  <div class="swiper-slide" style="text-align: center; font-size: 18px; background: rgba(211, 211, 211, 0.5); display: flex; justify-content: center; align-items: center; width: 25%;">
+    <p class="btn btn-primary">Performances</p>
+  </div>
+  <div class="swiper-slide" style="text-align: center; font-size: 18px; background: rgba(211, 211, 211, 0.5); display: flex; justify-content: center; align-items: center; width: 25%;">
+    <p class="btn btn-primary">AR / VR</p>
+  </div>
+  <div class="swiper-slide" style="text-align: center; font-size: 18px; background: rgba(211, 211, 211, 0.5); display: flex; justify-content: center; align-items: center; width: 25%;">
+    <p class="btn btn-primary">Projection/Immersion</p>
+  </div>
+  
+  <div class="swiper-slide" style="text-align: center; font-size: 18px; background: rgba(211, 211, 211, 0.5); display: flex; justify-content: center; align-items: center; width: 25%;">
+    <p class="btn btn-primary">Ai/Machine learning</p>
+  </div>
+</swiper-container>
 
+
+<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto"
+centered-slides="true" space-between="30">
+<swiper-slide>
+  <div class="card rounded">
+
+
+  <a href="artwork.html"><img src="../assets/artworks/Event1.png" class="card-img-top" alt="Image 1"></a>
+  <div class="card-body">
+    <h5 class="card-title">Aquana</h5>
+    <p class="card-text">Un monde immersif qui compare poisson aux Katanas</p>
+
+
+    <p class="card-subtitle mb-2 text-muted">Mikael-Isaac</p>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+    </svg>
+    <!-- Le chemin n'existe pas pour le moment alors il est #-->
+    <a href="artwork.html" class="btn btn-primary">Plus d'info</a>
+
+    <br></br>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+      <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+    </svg>
+  </div>
+</div>
+</swiper-slide>
+<swiper-slide><div class="card rounded">
+  <a href="artwork.html"><img src="../assets/artworks/Event1.png" class="card-img-top" alt="Image 2"></a>
+  <div class="card-body">
+    <h5 class="card-title">Flawre</h5>
+    <p class="card-text">Flawless et fleure pour un résultat à ne pas manquer</p>
+    <p class="card-subtitle mb-2 text-muted">Mikael-Isaac</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+    </svg>
+    <!-- Le chemin n'existe pas pour le moment alors il est #-->
+    <a href="artwork.html" class="btn btn-primary">Plus d'info</a>
+    <br></br>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+      <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+    </svg>
+  </div>
+</div>
+</swiper-slide>
+<swiper-slide><div class="card rounded">
+  <a href="artwork.html"><img src="../assets/artworks/Event1.png" class="card-img-top" alt="Image 3"></a>
+  <div class="card-body">
+    <h5 class="card-title">RatCart</h5>
+    <p class="card-text">Le quotidien d'un rat comme si il était humain</p>
+    <p class="card-subtitle mb-2 text-muted">Mikael-Isaac</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+    </svg>
+    <!-- Le chemin n'existe pas pour le moment alors il est #-->
+    <a href="artwork.html" class="btn btn-primary">Plus d'info</a>
+    <br></br>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+      <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+    </svg>
+  </div>
+</div>
+</swiper-slide>
+<swiper-slide>Slide 4</swiper-slide>
+<swiper-slide>Slide 5</swiper-slide>
+<swiper-slide>Slide 6</swiper-slide>
+<swiper-slide>Slide 7</swiper-slide>
+<swiper-slide>Slide 8</swiper-slide>
+<swiper-slide>Slide 9</swiper-slide>
+</swiper-container>
 
   
-<section class="container">
-    <!--Titre-->
-    <h2 class="text-center mt-5 mb-4">EN VEDETTE</h2>
-    <div class="card-deck no-gutters">
-        <!-- Première carte-->
-      <div class="card rounded">
 
 
-        <a href="artwork.html"><img src="../assets/artworks/Event1.png" class="card-img-top" alt="Image 1"></a>
-        <div class="card-body">
-          <h5 class="card-title">Aquana</h5>
-          <p class="card-text">Un monde immersif qui compare poisson aux Katanas</p>
-
-
-          <p class="card-subtitle mb-2 text-muted">Mikael-Isaac</p>
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
-            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-          </svg>
-          <!-- Le chemin n'existe pas pour le moment alors il est #-->
-          <a href="artwork.html" class="btn btn-primary">réserver</a>
-
-          <br></br>
-
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
-            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
-          </svg>
-        </div>
-      </div>
-      <!-- deuxieme carte (copiercoller)-->
-      <div class="card rounded">
-        <a href="artwork.html"><img src="../assets/artworks/Event1.png" class="card-img-top" alt="Image 2"></a>
-        <div class="card-body">
-          <h5 class="card-title">Flawre</h5>
-          <p class="card-text">Flawless et fleure pour un résultat à ne pas manquer</p>
-          <p class="card-subtitle mb-2 text-muted">Mikael-Isaac</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
-            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-          </svg>
-          <!-- Le chemin n'existe pas pour le moment alors il est #-->
-          <a href="artwork.html" class="btn btn-primary">réserver</a>
-          <br></br>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
-            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
-          </svg>
-        </div>
-      </div>
-      <!-- Troisième carte-->
-      <div class="card rounded">
-        <a href="artwork.html"><img src="../assets/artworks/Event1.png" class="card-img-top" alt="Image 3"></a>
-        <div class="card-body">
-          <h5 class="card-title">RatCart</h5>
-          <p class="card-text">Le quotidien d'un rat comme si il était humain</p>
-          <p class="card-subtitle mb-2 text-muted">Mikael-Isaac</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
-            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-          </svg>
-          <!-- Le chemin n'existe pas pour le moment alors il est #-->
-          <a href="artwork.html" class="btn btn-primary">réserver</a>
-          <br></br>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
-            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
-          </svg>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container">
+  <section class="container" style="background-color: rgba(211, 211, 211, 0.5);">
     <h2 class="mb-4">Autres Oeuvres</h2>
     <div class="row">
       <div class="col-md-4 mb-4">
@@ -214,7 +257,7 @@
     
     </div>
   </section>
-  <section class="container">
+  <section class="container" style="background-color: rgba(211, 211, 211, 0.5);">
     
     <div class="row">
       <div class="col-md-4 mb-4">
@@ -265,7 +308,7 @@
 
 
       <!--bas de page-->
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-color: rgba(211, 211, 211, 0.5);">
 <footer class="bg-dark text-light py-3 mt-4" id="stay">
   <div class="container">
     <div class="row">
@@ -281,4 +324,5 @@
 </div>
 
 </body>
+<script src="../js/script.js"></script>
 </html>
