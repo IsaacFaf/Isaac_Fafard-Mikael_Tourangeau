@@ -24,7 +24,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
   </style>
 </head>
-<body style="background-color: rgba(211, 211, 211, 0.644);">
+<body>
   <header>
     <meta name="robots" content="index">
     <nav class="navbar navbar-light navbar-expand-lg">
@@ -62,80 +62,52 @@
   </header>
 
 <main>
-  <div class="text-center">
-    <h1 class="pb-3">Description de l'oeuvre</h1>
-  </div>
-  
-  <section class="container" style="background-color: rgba(211, 211, 211, 0.5);">
-    <!--Titre-->
-    <div class="card-deck no-gutters">
-      <!-- Première carte-->
-      <div class="card rounded">
-        <img src="../assets/artworks/Event1.png" class="card-img-top" alt="Image 1">
-        <div class="card-body">
-          <h1 class="card-title">Aquana</h1>
-          <p class="card-text">Un monde immersif qui compare poisson aux Katanas</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
-
-            <section class="container" style="background-color: rgba(211, 211, 211, 0.5);">
-                <!--Titre-->
-                <div class="card-deck no-gutters">
-                    <!-- Première carte-->
-                  <div class="card rounded">
-            
-                    
-                    <img src="../assets/artworks/JaimeraisEtreUnArtiste.png" alt="artiste">
-                    <div class="card-body">
-                        <h1 class="card-title">Mikael</h1>
-                        <p class="card-text">
-                        
-                       
-                        
-                          <swiper-container class="mySwiper" scrollbar="true" direction="vertical" slides-per-view="auto" free-mode="true"
-                            mousewheel="true">
-                        
-                            <swiper-slide>
-                              <h4>Description</h4>
-                              
-                                <p class="p1">Mikaël est un artiste adepte d'anime japonais.</p>
-                                
-                                
-                                    <a href="artiste.html"><h4 class="btn btn-primary" id="jsplease">En savoir plus<h4></a>
-                            </swiper-slide>
-                          </swiper-container>
-                        
-                          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-                        
-                        
-                        
-                    </section>
-                </p>
-
-
-
-<div class="Centre" >
-            
-    
-              <div class="class2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-              </svg>
-              <!-- Le chemin n'existe pas pour le moment alors il est #-->
-              <a href="#" class="btn btn-primary">réserver</a></div>
-            </div>
-              
   <!--lien des icones-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-c8W7S9btpCpPiLyg1eJw8wIYS1fTcTgr3zA3oHgdWkX9Yngs1gAsRczFhJ8kvz+v" crossorigin="anonymous">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-QFyo7JcrzNwwAAZohr5OW5dTO0/2uQiz8y7cqPzvJpWe7Vxlmxkt1Z5VJr5uxMuE" crossorigin="anonymous">
-
-   
-
+<!--Formulaire des placeholders / barre recherche-->
+<form class="d-flex">
   
+  <!--Overflow [Non fonctionnel malheureusement :(]-->
+  <div class="overflow">
+    </div>
+    <div class="patate">
+  <input class="form-control" type="search" placeholder="Rechercher un article" aria-label="Rechercher un article">
+  <svg class="svg"  width="16" height="16" class="bi bi-search" viewBox="0 0 1 16">
+    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+  </svg>
+</div>
+  
+  <button class="btn btn-success" type="submit" style="height: 50%; display: flex; justify-content: center; align-items: center;">Rechercher</button>
+  
+</form>
+<br></br>
+   
+<!--Utiliser IconFont le CDN et mettre dans le head balise i class...-->
+  
+
+
+
+<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto" centered-slides="true" space-between="30" style="max-width: 800px;">
+  <swiper-slide>
+    <div class="card rounded">
+      <a href="artwork.html"><img src="../assets/artworks/Merch.jpeg" class="card-img-top" alt="Image 1"></a>
+      <div class="card-body">
+        <h5 class="card-title">Achetez notre nouveau Hoodie!</h5>
+        <p class="card-text">45.99$CAD</p>
+        <p class="card-subtitle mb-2 text-muted"> Le tout nouveau Hoodie <b>Medjap</b> est sorti! avec l'achat de celui-ci, vous recevrez l'autographe de Mikael et Isaac sur le reçu de vente! À ne pas manquer. <br></br>15% de rabais avec le code: MEILLEUR PROJET</p>
+        <a href="#" class="btn btn-primary">Achetez</a>
+        <a href="app.html" class="btn btn-primary">Revenir à l'Accueil</a>
+      </div>
+    </div>
+  </swiper-slide>
+  
+</swiper-container>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 </main>
 
 
@@ -144,7 +116,8 @@
 
 
       <!--bas de page-->
-    <div class="container-fluid" style="background-color: rgba(211, 211, 211, 0.5);">
+      <div class="footer fixed-bottom">
+    <div class="container-fluid">
 <footer class="bg-dark text-light py-3 mt-4" id="stay">
   <div class="container">
     <div class="row">
@@ -156,9 +129,9 @@
       </div>
     </div>
   </div>
+</div>
 </footer>
 </div>
 
 </body>
-<script src="../js/script.js"></script>
 </html>
